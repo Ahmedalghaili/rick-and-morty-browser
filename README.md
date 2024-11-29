@@ -47,7 +47,16 @@ Follow these steps to set up the project locally:
 
 ```
 rick-and-morty-browser/
-├── components/       # Reusable components for the application
+├──app/
+│   ├── components/
+│   │   ├── CharacterCard.tsx
+│   │   ├── CharacterGrid.tsx
+│   │   ├── CharacterModal.tsx
+│   │   └── SearchBar.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 ├── pages/            # Application pages
 ├── public/           # Static assets like images
 ├── styles/           # Tailwind and global styles
